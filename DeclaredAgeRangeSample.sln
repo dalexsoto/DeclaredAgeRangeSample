@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binding", "Binding", "{DA85905C-F346-4845-8E97-3E1DA8EC2292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclaredAgeRangeWrapperBinding.iOS", "DeclaredAgeRangeWrapperBinding.iOS\DeclaredAgeRangeWrapperBinding.iOS.csproj", "{5221F870-E121-43A6-83D7-9808EE1FC8CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclaredAgeRangeWrapperBinding.macOS", "DeclaredAgeRangeWrapperBinding.macOS\DeclaredAgeRangeWrapperBinding.macOS.csproj", "{9C15A375-54B1-409F-A30A-E5B1B7850180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{9609DED7-52E4-42FC-AC0C-2E91012F07FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSSampleApp", "iOSSampleApp\iOSSampleApp.csproj", "{8496E611-D8E4-485D-B7ED-449CECF81478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5221F870-E121-43A6-83D7-9808EE1FC8CB} = {DA85905C-F346-4845-8E97-3E1DA8EC2292}
+		{9C15A375-54B1-409F-A30A-E5B1B7850180} = {DA85905C-F346-4845-8E97-3E1DA8EC2292}
+		{8496E611-D8E4-485D-B7ED-449CECF81478} = {9609DED7-52E4-42FC-AC0C-2E91012F07FA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5221F870-E121-43A6-83D7-9808EE1FC8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5221F870-E121-43A6-83D7-9808EE1FC8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5221F870-E121-43A6-83D7-9808EE1FC8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5221F870-E121-43A6-83D7-9808EE1FC8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C15A375-54B1-409F-A30A-E5B1B7850180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C15A375-54B1-409F-A30A-E5B1B7850180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C15A375-54B1-409F-A30A-E5B1B7850180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C15A375-54B1-409F-A30A-E5B1B7850180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8496E611-D8E4-485D-B7ED-449CECF81478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8496E611-D8E4-485D-B7ED-449CECF81478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8496E611-D8E4-485D-B7ED-449CECF81478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8496E611-D8E4-485D-B7ED-449CECF81478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

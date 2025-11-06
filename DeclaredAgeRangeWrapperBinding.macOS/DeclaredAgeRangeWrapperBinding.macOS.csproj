@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0-macos</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <IsBindingProject>true</IsBindingProject>
+
+        <!--
+          Enable trim analyzers for class libraries.
+          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
+        -->
+        <IsTrimmable>true</IsTrimmable>
+        <RootNamespace>DeclaredAgeRange.macOS</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <NativeReference Include="../DeclaredAgeRangeWrapper/DeclaredAgeRangeWrapper.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>true</SmartLink>
+        </NativeReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ObjcBindingApiDefinition Include="..\DeclaredAgeRangeWrapperBinding.iOS\ApiDefinition.cs">
+        <Link>ApiDefinition.cs</Link>
+      </ObjcBindingApiDefinition>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ObjcBindingCoreSource Include="..\DeclaredAgeRangeWrapperBinding.iOS\StructsAndEnums.cs">
+        <Link>StructsAndEnums.cs</Link>
+      </ObjcBindingCoreSource>
+    </ItemGroup>
+</Project>
